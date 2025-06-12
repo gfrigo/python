@@ -1,4 +1,4 @@
-# Forma como referenciamos a função em memória
+# Funções que podem receber ou retornam outras funções
 def saudacao(msg:str, nome:str):
   print(f"{msg}, {nome}!")
 
