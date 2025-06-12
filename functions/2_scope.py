@@ -1,3 +1,5 @@
+# Acompanhar o Debug e Call Stack
+
 x = 10
 y = 10
 
