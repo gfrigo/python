@@ -1,6 +1,6 @@
 # Estrutura "chave" e "valor"
-# Chaves (imutáveis): str, int, float, bool, tuple e etcc
-# Valores (mutáveis): str, int, dict, list e etc
+# Chaves (imutáveis): str, int, float, bool, tuple e etc
+# Valores (mutáveis): dict e list
 
 dicionario = {
   "nome" : "Gabriel",
