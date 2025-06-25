@@ -2,6 +2,11 @@
 # Lê-se: Faça algo, se ocorrer um erro, capture-o e informe ao usuário/ação específica
 # Obs: Try e Except não cobrem erros de sintaxe
 
+"""
+Acesse o site da linguagem para ver a hierarquia das classes de exceções:
+https://docs.python.org/3/library/exceptions.html
+"""
+
 try:
   a = 100
   b = 0
