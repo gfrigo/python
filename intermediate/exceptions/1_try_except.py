@@ -1,5 +1,6 @@
 # Tratamento de exceções com try e except
 # Lê-se: Faça algo, se ocorrer um erro, capture-o e informe ao usuário/ação específica
+# Obs: Try e Except não cobrem erros de sintaxe
 
 try:
   a = 100
