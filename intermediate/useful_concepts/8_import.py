@@ -25,3 +25,7 @@ from pandas import read_csv
 - Obs: Importa tudo da biblioteca/módulo (não é uma boa prática)
 """
 from pandas import *
+
+def funcao_teste():
+  print("Olá, mundo")
+  print(__name__)
