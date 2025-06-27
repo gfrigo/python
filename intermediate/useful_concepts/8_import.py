@@ -26,6 +26,5 @@ from pandas import read_csv
 """
 from pandas import *
 
-def funcao_teste():
-  print("Olá, mundo")
-  print(__name__)
+
+print(__name__)
