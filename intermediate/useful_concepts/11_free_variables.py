@@ -15,5 +15,5 @@ def concatenador_inicial(str_inicial:str):
     return valor_final
   return concatenador_final
 
-concatenador = concatenador_inicial("a")
-print(concatenador("b"))
+concatenador_final = concatenador_inicial("a")
+print(concatenador_final("b"))
