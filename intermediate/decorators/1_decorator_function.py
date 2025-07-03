@@ -5,11 +5,11 @@ adicionam / removem / restrigem / alteram
 
 def criar_funcao(funcao):
   def criador_funcao_interna(*args):
-    print("Decorando...")
+    print("Decorando...") # Adicionar código antes
     for arg in args:
-      verificador_string(arg)
+      verificador_string(arg) # Restringir
     resultado = funcao(*args)
-    print("Decorada!")
+    print("Decorada!") # Adicionar código após
     return resultado
   return criador_funcao_interna
 
